@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/order-pizzas.css">
+    <title>Order pizzas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../Home.html"><img id="imgLogo" src="../img/logo-pizza-Hut.png"></a>
+        </nav>
+        <div class="cont-menu">
+            <div class="option">
+                <a href="./Order.html"><button>Promociones</button></a>
+            </div>
+            <div class="option">
+                <button id="btn-selected">Pizzas</button>
+            </div>
+            <div class="option">
+                <button>Melts</button>
+            </div>
+            <div class="option">
+                <button>WingStreet</button>
+            </div>
+            <div class="option">
+                <button>Complementos</button>
+            </div>
+            <div class="option">
+                <button>Postres</button>
+            </div>
+            <div class="option">
+                <button>Bebidas & Dips</button>
+            </div>
+            <div class="option-null">
+            </div>
+        </div>
+    </header>
+    <div class="cont-pizzas">
+        <div class="categoria-pizza">
+            <img src="../img/titulos_pizzas/pizza-lovers.png" width="400px" height="80px">
+        </div>
+        <div class="cont-pizzaLovers">
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/PL-Cowabunga-M.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">¡COWABUNGA! Pizza Mediana</h2>
+                    <p class="card-descripcion">
+                        Nuestra Pizza COWABUNGA mediana tradicional Cuatro Sabores: Pizza 
+                        Pepperoni (Rafael), Pizza de Jamón con salsas búfalo (Miguel), Pizza
+                        de carne con pimientos verdes (Donatello), Pizza atrevida como el 
+                        queso y salsa de tamarindo (Leo)
+                    </p>
+                    <button class="btn">Añadir $179.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/PL-Cowabunga-M.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">¡COWABUNGA! Pizza Mediana</h2>
+                    <p class="card-descripcion">
+                        Nuestra Pizza COWABUNGA grande tradicional Cuatro Sabores: Pizza Pepperoni
+                        (Rafael), Pizza de Jamón con salsas búfalo (Miguel), Pizza de carne con 
+                        pimientos verdes (Donatello), Pizza atrevida como el Queso y salsa de 
+                        tamarindo (Leo)
+                    </p>
+                    <button class="btn">Añadir $229.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/PL-Suprema.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Suprema Lover's</h2>
+                    <p class="card-descripcion">
+                        Deliciosa Carne de puerco, Res, Queso y un Mix de nuestros vegetales. 
+                        Envío sin costo. Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $249.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/PL-Deluxe.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Deluxe Lover's</h2>
+                    <p class="card-descripcion">
+                        ¡De todo un poco! Jamón, Pepperoni, Mix de carnes, Salchicha italiana, Mix de vegetales
+                        y Aceitunas negras. Envío sin costo. Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $249.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/PL-Deluxe.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Veggie Lover's</h2>
+                    <p class="card-descripcion">
+                        Esta delicia tiene todos los ingredientes vegetales que te gustan: Champiñones, Cebollas
+                        rojas, Pimientos verdes, Tomates Roma y Aceitunas negras. Envío sin costo. Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $249.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/PL-Deluxe.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Meat Lover's</h2>
+                    <p class="card-descripcion">
+                        Un Mix de todas nuestras carnes: Jamón, Pepperoni, Carne de res, Carne de cerdo y Salchicha italiana.
+                        Envío sin costo. Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $249.00</button>
+                </div>
+            </div>
+        </div>
+        <div class="categoria-pizza">
+            <img src="../img/titulos_pizzas/Las favoritas.png" width="400px" height="80px">
+        </div>
+        <div class="cont-favoritas">
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/FAV-pastor.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Pastor</h2>
+                    <p class="card-descripcion">
+                        ¡Del trompo al horno! Pizza Pastor con cebolla, piña y queso. Envío sin costo. 
+                        Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $249.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/FAV-alambre.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Alambre</h2>
+                    <p class="card-descripcion">
+                        Deliciosa Pizza con Pastor, Tocino, Pimientos y Cebolla. Envío sin costo. 
+                        Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $209.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/FAV-Mexicana.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Mexicana</h2>
+                    <p class="card-descripcion">
+                        Todo el sabor mexicano. Chorizo, Pico de gallo, Jalapeño y Tocino. Envío sin costo. 
+                        Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $209.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/FAV-Hawaiana.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Hawaiana</h2>
+                    <p class="card-descripcion">
+                        ¡La combinación perfecta! Jamón y Piña. Envío sin costo. Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $209.00</button>
+                </div>
+            </div>
+        </div>
+        <div class="categoria-pizza">
+            <img src="../img/titulos_pizzas/Arma_tu_pizza.png" width="400px" height="80px">
+        </div>
+        <div class="cont-arma">
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/AP-Queso.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">Solo queso</h2>
+                    <p class="card-descripcion">
+                        Crea tu pizza de Queso Mozzarella con una de nuestras famosas y deliciosas masas. Envío sin costo. 
+                        Pídelo y recibe en casa.
+                    </p>
+                    <p class="msj-seleccion">Selecciona el tamaño y tipo de masa</p>
+                    <select class="masa-menu" name="Masa" id="type-masa">
+                        <option value="">Mediana tradicional</option>
+                        <option value="">Mediana Pan Pizza de Sartén</option>
+                        <option value="">Mediana Crispy Masa Delgada</option>
+                        <option value="">Mediana Hut Cheese</option>
+                        <option value="">Grande Tradicional</option>
+                        <option value="">Grande Pan Pizza de Sartén</option>
+                        <option value="">Grande Crispy Masa Delgada</option>
+                        <option value="">Grande Hut Cheese</option>
+                        <option value="">Grande Cheesy Pops</option>
+                        <option value="">Gran Hut Artesanal</option>
+                    </select>
+                    <button class="btn">Añadir $169.00</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/AP-1Ingre.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">1 Ingrediente</h2>
+                    <p class="card-descripcion">
+                        Crea tu pizza con una de nuestras famosas y deliciosas masas. Envío sin costo.
+                        Pídelo y recibe en casa.
+                    </p>
+                    <button class="btn">Comenzar</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="../img/pizzas/AP-2-4Ingre.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-titulo">2-4 Ingredientes</h2>
+                    <p class="card-descripcion">
+                        Crea tu pizza con una de nuestras famosas y deliciosas masas agregándole de 2-4 ingredientes. 
+                        Envío sin costo. Pídelo y recibe en casa.
+                    </p>
+                    <button class="btn">Comenzar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont-carrito">
+        <div class="carrito-header">
+            <h1>Tu carrito</h1>
+            <p class="carrito-text">
+                Precios validos en línea, app y contact center. Tu carrito se ve un poco vacío. 
+                ¿Por qué no echas un vistazo a algunas de nuestras promociones?
+            </p>
+        </div>
+        <div class="carrito-costo">
+            <p>Costo de Entrega</p>
+            <p>$0.00</p>
+        </div>
+        <div class="btn-cupon">
+            <button>Añadir código de cupón</button>
+        </div>
+        <div class="btn-pago">
+            <button>Proceder al pago</button>
+        </div>
+    </div>
+</body>
+</html>

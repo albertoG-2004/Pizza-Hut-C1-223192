@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    margin-top: 0px;
+}
+hr{
+    color: rgb(92, 91, 91);
+    margin-right: 70px;
+}
+.tel{
+    margin-left: 220px;
+    margin-right: 15px;
+}
+.num-tel{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.user{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.resgistro{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.cuenta{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bandera-MX{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.bandera-EU{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.idioma{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*#####################################################*/
+#Orden{
+    background-color: rgb(252, 251, 251);
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top: 266px;
+    left: 350px;
+    -webkit-box-shadow: 5px 23px 21px 0px rgba(138,138,138,0.61);
+    -moz-box-shadow: 5px 23px 21px 0px rgba(138,138,138,0.61);
+    box-shadow: 5px 23px 21px 0px rgba(138,138,138,0.61);
+}
+.Entrega{
+    position: absolute;
+    top: 220px;
+    left: 350px;
+    width: 350px;
+    height: 50px;
+    background-color: #E0DDDD;
+    border: 0px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.Recoger{
+    position: absolute;
+    top: 220px;
+    left: 700px;
+    width: 350px;
+    height: 50px;
+    background-color: #E0DDDD;
+    border: 0px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+#Ordenar{
+    padding-top: 0px;
+    padding-left: 15px;
+}
+.tipo-orden{
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+.lbl-datos{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(67, 67, 67);
+    margin-top: 0px;
+}
+#datos{
+    margin-left: 6px;
+    width: 500px;
+    height: 40px;
+    font-size: 14px;
+    margin-right: 0px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(174, 174, 174);
+}
+#datos:focus{
+    outline: none;
+}
+#btn-ordenar{
+    width: 150px;
+    height: 50px;
+    margin-left: 0px;
+    border: 0px solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(115, 251, 80);
+    color: white;
+    font-size: 16px;
+}
+#ubi{
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 6px;
+    padding-top: 5px;
+    border: 0px solid;
+    background-color: white;
+    font-size: 15px;
+    color: rgb(62, 83, 240);
+}
+/*#####################################################*/
+.Ofertas{
+    width: 100%;
+    padding-top: 35px;
+}
+.line-1{
+    position: absolute;
+    top: 538px;
+    left: 0px;
+}
+.line-2{
+    position: absolute;
+    top: 538px;
+    left: 830px;
+}
+.Ofertas p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.Ofertas-img{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 120px;
+}
+.container-btn-verPizzas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.container-btn-verPizzas button{
+    width: 1120px;
+    height: 56px;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(125, 168, 40);
+}
+/*#####################################################*/
+footer{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 480px;
+}
+.Cont-footer{
+    display: flex;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 130px;
+    padding-top: 60px;
+}
+.Titulo{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+footer p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+}
+.Registro-Ayuda{
+    margin-left: 90px;
+}
+.Legales{
+    margin-left: 90px;
+    margin-right: 70px;
+}
+.Linea-footer1{
+    width: 0;
+    margin: 0;
+}
+.Conectar{
+    margin-left: 70px;
+}
+.Linea-footer2{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.Linea-footer3{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.Reservaciones{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.Aviso{
+    width: 1085px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 140px;
+}

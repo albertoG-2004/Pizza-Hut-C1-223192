@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+}
+nav{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#imgLogo{
+    width: 170px;
+    height: 40px;
+}
+.cont-menu{
+    display: flex;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    border: 1px solid;
+    border-color: rgb(208, 208, 208);
+}
+#btn-selected{
+    background-color: rgb(218, 66, 66);
+    color: white;
+}
+.option button{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 0px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.option-null{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+    border-color: rgb(208, 208, 208);
+}
+/*#####################################################*/
+.cont-pizzas{
+    background-color: rgb(202, 201, 201);
+    width: 1000px;
+    padding-left: 8px;
+    padding-right: 22px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.categoria-pizza{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cont-pizzaLovers{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: white;
+    margin: 0;
+    width: 230px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+}
+.card:hover{
+    transition: 0.5s;
+    -webkit-box-shadow: 4px 6px 8px -1px rgba(0,0,0,0.68);
+    -moz-box-shadow: 4px 6px 8px -1px rgba(0,0,0,0.68);
+    box-shadow: 4px 6px 8px -1px rgba(0,0,0,0.68);
+}
+.card-header button{
+    position: relative;
+    z-index: 2;
+    background-color: #FFFFFF80;
+
+}
+.card-body{
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-body h2{
+    margin: 0;
+}
+.card-titulo{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.card-descripcion{
+    flex-grow: 1;
+    margin-top: 6px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(110, 109, 109);
+}
+.msj-seleccion{
+    flex-grow: 1;
+    margin-top: 6px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(29, 28, 28);
+}
+.masa-menu{
+    flex-grow: 1;
+    background-color: rgb(231, 227, 227);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    border: 0;
+}
+.btn{
+    background-color: rgb(125, 168, 40);
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+/*#####################################################*/
+.cont-favoritas{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.cont-arma{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 5px;
+}
+/*#####################################################*/
+h1{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(1, 1, 1)
+}
+.cont-carrito{
+    background-color: white;
+    position: fixed;
+    width: 320px;
+    height: 100%;
+    padding-top: 12px;
+    top: 0;
+    right: 0;
+    -webkit-box-shadow: -7px 6px 15px 0px rgba(158,155,158,0.67);
+    -moz-box-shadow: -7px 6px 15px 0px rgba(158,155,158,0.67);
+    box-shadow: -7px 6px 15px 0px rgba(158,155,158,0.67);
+}
+.carrito-header{
+    padding-left: 15px;
+    padding-right: 50px;
+}
+.carrito-text{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.carrito-costo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(106, 106, 106);
+}
+.btn-cupon{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+}
+.btn-cupon button{
+    background-color: white;
+    border: 1px dashed;
+    border-color: rgb(106, 106, 106);
+    width: 100%;
+    height: 100%;
+    color: rgb(106, 106, 106);
+}
+.btn-pago{
+    margin-top: 300px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 45px;
+}
+.btn-pago button{
+    background-color: rgb(125, 168, 40);
+    border: 0px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    height: 100%;
+}

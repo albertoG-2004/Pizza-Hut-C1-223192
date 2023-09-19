@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="./img/logo-pizza-Hut.png" width="170px" height="40px">
+            <div class="tel">
+                <img src="./img/icono-telefono-removebg-preview.png" width="50px" height="40px">
+            </div>
+            <div class="num-tel">
+                <p>55 8250 5650</p>
+            </div>
+            <div class="user">
+                <img src="./img/icono-usuario.png" width="30px" height="30px">
+            </div>
+            <div class="cuenta">
+                <p>Tu cuenta</p>
+            </div>
+            <div class="resgistro">
+                <img src="./img/icono-usuario.png" width="30px" height="30px">
+            </div>
+            <div class="cuenta">
+                <p>Regístrate</p>
+            </div>
+            <div class="bandera-MX">
+                <img src="./img/bandera-mexico.png" width="50px" height="20px">
+            </div>
+            <div class="idioma">
+                <p>Español</p>
+            </div>
+            <div class="bandera-EU">
+                <img src="./img/bandera-EU.png" width="50px" height="20px">
+            </div>
+            <div class="idioma">
+                <p>English</p>
+            </div>
+        </nav>
+    </header>
+    <div class="img-fondo">
+        <img src="./img/pizza-fondo.jpg" width="100%" height="400px">
+    </div>
+    <button id="btn-entrega" class="Entrega" onclick="pedidoDomicilio()">Entrega a Domicilio</button>
+    <button id="btn-recoger" class="Recoger" onclick="pedidoTienda()">Recoger en Tienda</button>
+    <div id="Orden">
+            <div id="Ordenar">
+                <p id="titulo" class="tipo-orden">ORDENA ONLINE, RECIBE A DOMICILIO</p>
+                <p id="lbl-datos" class="lbl-datos">Ingresa tu dirección de envío o da click en la opción de tu ubicación actual</p>
+                <input id="datos" class="input-datos" type="text" placeholder="Ingresa tu calle y número">
+                <button id="btn-ordenar">Ordena ahora</button>
+                <button id="ubi">Utilizar mi ubicación</button>
+            </div>
+    </div>
+    <div class="Ofertas">
+        <hr class="line-1" width="520px" size="1">
+        <hr class="line-2" width="516px" size="1">
+        <strong><p>Ofertas exclusivas online</p></strong>
+        <div class="Ofertas-img">
+            <img src="./img/oferta-1.jpg" width="550px" height="400px">
+            <img src="./img/oferta-2.png" width="550px" height="400px">
+        </div>
+        <div class="container-btn-verPizzas">
+            <a href="./pages/Order.html"><button>Ver todas nuestras pizzas</button></a>
+        </div>
+    </div>
+    <footer>
+        <div class="Cont-footer">
+            <div class="Menu">
+                <p class="Titulo">MENÚ</p>
+                <p>Promociones</p>
+                <p>Pizzas</p>
+                <p>Melts</p>
+                <p>WingStreet</p>
+                <p>Complementos</p>
+                <p>Postres</p>
+                <p>Bebidad & dips</p>
+            </div>
+            <div class="Registro-Ayuda">
+                <p class="Titulo">REGISTRARSE</p>
+                <p>Crear cuenta</p>
+                <p class="Titulo">AYUDA Y SERVICIO</p>
+                <p>Factura electrónica</p>
+                <p>Preguntas frecuentes y ayuda</p>
+            </div>
+            <div class="Legales">
+                <p class="Titulo">LEGALES</p>
+                <p>Política de privacidad</p>
+                <p>Condiciones de uso</p>
+                <p>Términos y Condiciones</p>
+                <p>Términos y condiciones de promociones</p>
+                <p>Términos y condiciones de dinámicas</p>
+                <p>Información Nutrimental</p>
+            </div>
+            <hr class="Linea-footer1" size="1">
+            <div class="Conectar">
+                <p class="Titulo">CONECTAR CON PIZZA HUT</p>
+                <p>Danos like en facebook</p>
+                <p>Síguenos en Twitter</p>
+                <p>Míranos en Youtube</p>
+            </div>
+        </div>
+        <hr class="Linea-footer2" width="1100" size="1">
+        <p class="Reservaciones">© 2023 Yum Brands Inc. Todos los derechos reservados.</p>
+        <hr class="Linea-footer3" width="1100" size="1">
+        <p class="Aviso">
+            Aliméntate sanamente: Las imágenes son de carácter ilustrativo. Compra mínima en 
+            internet es de $149 pesos. Área de entrega limitada. Nuestros repartidores no 
+            llevan más de $200 pesos en cambio. Los precios pueden variar de unidad en unidad
+            y en servicio a domicilio. Sujeto a disponibilidad. Consulta nuestro aviso de 
+            privacidad. COCA-COLA es una marca registrada de The Coca-Cola Company. D.R. © 
+            The Coca-Cola Company. 2023.
+        </p>
+    </footer>
+    <script src="./js/home.js"></script>
+</body>
+</html>
